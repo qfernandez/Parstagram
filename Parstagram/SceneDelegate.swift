@@ -3,7 +3,7 @@
 //  Parstagram
 //
 //  Created by Quentin-Allen Velayo Fernandez on 3/1/20.
-//  Copyright © 2020 Quentin&Mary. All rights reserved.
+//  Copyright © 2020 Quentin-Allen Velayo Fernandez. All rights reserved.
 //
 
 import UIKit
