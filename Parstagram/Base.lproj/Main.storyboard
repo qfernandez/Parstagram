@@ -10,12 +10,6 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-<<<<<<< Updated upstream
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-=======
                 <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -68,7 +62,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
->>>>>>> Stashed changes
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -80,9 +73,6 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-<<<<<<< Updated upstream
-            <point key="canvasLocation" x="139" y="84"/>
-=======
             <point key="canvasLocation" x="138.40000000000001" y="126.38680659670166"/>
         </scene>
         <!--Feed View Controller-->
@@ -213,7 +203,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kwc-CV-vvx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="826.39999999999998" y="121.88905547226388"/>
->>>>>>> Stashed changes
         </scene>
     </scenes>
     <resources>
