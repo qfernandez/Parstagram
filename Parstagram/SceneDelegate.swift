@@ -2,8 +2,8 @@
 //  SceneDelegate.swift
 //  Parstagram
 //
-//  Created by Quentin-Allen Velayo Fernandez on 3/1/20.
-//  Copyright © 2020 Quentin-Allen Velayo Fernandez. All rights reserved.
+//  Created by Maryann Cortez on 3/3/20.
+//  Copyright © 2020 Maryann Cortez. All rights reserved.
 //
 
 import UIKit

@@ -2,8 +2,8 @@
 //  LoginViewController.swift
 //  Parstagram
 //
-//  Created by Quentin-Allen Velayo Fernandez on 3/1/20.
-//  Copyright © 2020 Quentin-Allen Velayo Fernandez. All rights reserved.
+//  Created by Maryann Cortez on 3/3/20.
+//  Copyright © 2020 Maryann Cortez. All rights reserved.
 //
 
 import UIKit
@@ -27,7 +27,7 @@ class LoginViewController: UIViewController {
         
         PFUser.logInWithUsername(inBackground: username, password: password) { (user, error) in
             if user != nil {
-                self.performSegue(withIdentifier: "loginSeque", sender: nil)
+                self.performSegue(withIdentifier: "loginSegue", sender: nil)
             } else {
                 print("Error: \(error?.localizedDescription)")
             }

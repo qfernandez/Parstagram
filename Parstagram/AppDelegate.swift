@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Parstagram
 //
-//  Created by Quentin-Allen Velayo Fernandez on 3/1/20.
-//  Copyright © 2020 Quentin-Allen Velayo Fernandez. All rights reserved.
+//  Created by Maryann Cortez on 3/3/20.
+//  Copyright © 2020 Maryann Cortez. All rights reserved.
 //
 
 import UIKit
@@ -23,7 +23,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                        configuration.server = "https://enigmatic-waters-01848.herokuapp.com/parse"
                    })
                )
-        
+        if PFUser.current() != nil {
+            let main = UIStoryboard(name: "Main", bundle: nil)
+            let feedNavigationController = main.instantiateViewController(withidentifier: "FeedNavigationController")
+            window?.rootViewController = feedNavigationController
+            
+        }
         
         return true
     }
